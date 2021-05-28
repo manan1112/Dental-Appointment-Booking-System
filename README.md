@@ -2,25 +2,25 @@
 
 The Problem to be solved for the accomplishment of this project is to develop a web application that will book an online appointment for the patient. The time selected by the patient should be the available time for the doctor. If not available then the appointment should not be booked by showing the “Appointment Not Booked” message.
 
-##Objective:
+## Objective:
 The main objective of “Dental Appointment Booking System” would be eliminating the overheads along with the effective time management of both doctor and patients by reducing the surplus waiting time.This is a web based application that overcomes the issue of managing and booking appointments according to user’s choice and availability of doctor. 
 
-##Functionalities:
+## Functionalities:
 The project functions as the online and easy to use medium of booking appointments for a dentist.
 The validations about the date and time for a particular appointment have been taken care of and need to be unique for every patient.
 If the appointment booking has been successful, a booking ID is generated for future reference. This ID is unique for every patient.
 
-##Environment :
+## Environment :
  Microsoft Visual Studio 2019
 
-##Technology Used :
+## Technology Used :
  For Frontend : HTML , CSS
  
  For Backened : ASP.NET ,C#
  
  For Database : SQL
 
-##Interface
+## Interface
 
 ![DefaultScreen(Ist)](https://user-images.githubusercontent.com/64202819/120033900-ad57f100-c015-11eb-9fe8-7dc637f8446c.PNG)
 
