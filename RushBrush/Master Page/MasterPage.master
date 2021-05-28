@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Master_Page_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link href="../Style/style_sheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+             <div class="top">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/Rush Brush (1).png"  Width="1350" Height="150"/>
+             </div>
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+            <div class="left">
+                <ul class="menu">
+                    <li class="links"><b><a href="../Homepage/know.aspx">&nbsp<i class="fa fa-user-md"></i>&nbsp Know Your Doctor</a></b></li>
+                    <li class="links"><b><a href="../Homepage/service.aspx">&nbsp<i class="fa fa-plus-square"></i>&nbsp Services Offered</a></b></li>
+                    <li class="links"><b><a href="../Homepage/appointment.aspx">&nbsp<i class="fa fa-calendar-check-o"></i>&nbsp Book Appointment</a></b></li>
+                    <li class="links"><b><a href="../Homepage/cancel.aspx">&nbsp<i class="fa fa-calendar-times-o"></i>&nbsp Cancel Appointment</a></b></li>
+                </ul>
+            </div>
+        </asp:ContentPlaceHolder> 
+          <div style="margin-left:auto;height:430px;">  
+        <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+           
+        </asp:ContentPlaceHolder>
+              </div>
+
+
+        <div style= "margin-bottom:0px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder4" runat="server">
+        <div class="bottom">
+            <h3 class="text-center">
+                 <i class="fa fa-home"></i> SCO 2196 , MUGHAL CANAL , ROHINI , NEW DELHI
+            </h3>
+            <h3 class="text-center">
+                <i class="fa fa-phone"></i> 903425XXXX &nbsp &nbsp <i class="fa fa-whatsapp"></i> 797380XXXX
+            </h3>
+        </div>
+        </asp:ContentPlaceHolder>
+            </div>
+
+
+    </form>
+</body>
+</html>

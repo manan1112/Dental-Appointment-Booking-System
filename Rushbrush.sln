@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Dental appointment", ".", "{1E9F05C9-53E7-465B-A29B-45C202A2E32A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50498"
+		Debug.AspNetCompiler.PhysicalPath = "..\Dental appointment\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50498\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50498"
+		Release.AspNetCompiler.PhysicalPath = "..\Dental appointment\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50498\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50498"
+		SlnRelativePath = "..\Dental appointment\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9F05C9-53E7-465B-A29B-45C202A2E32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9F05C9-53E7-465B-A29B-45C202A2E32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AA206D7-DAAA-4021-845E-40E445075305}
+	EndGlobalSection
+EndGlobal
